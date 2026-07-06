@@ -1,0 +1,12 @@
+# Dataset is downloaded on demand - not committed.
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Keep the trained model params (models/air_meta.json) committed.
